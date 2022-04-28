@@ -10,7 +10,7 @@ function calcular(tipo, valor) {
         
         if(valor === 'r') {
             var vl_campo = eval(document.getElementById('resultado').value);
-            eval(document.getElementById('resultado').value = Math.sqrt(vl_campo));
+            (document.getElementById('resultado').value = Math.sqrt(vl_campo));
         }
 
         if(valor === '=') {
